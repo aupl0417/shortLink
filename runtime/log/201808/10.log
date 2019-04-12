@@ -1,0 +1,61 @@
+---------------------------------------------------------------
+[ 2018-08-10T14:34:01+08:00 ] 127.0.0.1 GET /?url=http%3A%2F%2Fh5.hsbro.cn%2Fshop%2Fauth%2Finfo%3F_plat%3Dnologin%26id%3D22
+[ info ] t.guazi.com/?url=http%3A%2F%2Fh5.hsbro.cn%2Fshop%2Fauth%2Finfo%3F_plat%3Dnologin%26id%3D22 [运行时间：0.229544s][吞吐率：4.36req/s] [内存消耗：2,302.65kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://h5.hsbro.cn/shop/auth/info?_plat=nologin&id=22',
+  'code' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T14:34:18+08:00 ] 127.0.0.1 GET /1KnMC
+[ info ] t.guazi.com/1KnMC [运行时间：0.092650s][吞吐率：10.79req/s] [内存消耗：2,356.82kb] [文件加载：47]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688',
+)
+[ info ] [ PARAM ] array (
+  'code' => '1KnMC',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

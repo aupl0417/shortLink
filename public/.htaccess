@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^(\S{1,7})$ index.php?code=$1 [L]
+</IfModule>

@@ -1,0 +1,4532 @@
+---------------------------------------------------------------
+[ 2018-08-07T17:05:37+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001613s ] mysql:host=127.0.0.1;dbname=;charset=utf8
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+---------------------------------------------------------------
+[ 2018-08-07T17:05:48+08:00 ] 127.0.0.1 GET /?code=http://www.baidu.com
+[ error ] [8]未定义数组索引: :
+---------------------------------------------------------------
+[ 2018-08-07T17:05:52+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010812s ] mysql:host=127.0.0.1;dbname=;charset=utf8
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+---------------------------------------------------------------
+[ 2018-08-07T17:06:20+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011100s ] mysql:host=127.0.0.1;dbname=;charset=utf8
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+---------------------------------------------------------------
+[ 2018-08-07T17:06:21+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010439s ] mysql:host=127.0.0.1;dbname=;charset=utf8
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+---------------------------------------------------------------
+[ 2018-08-07T17:07:00+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011318s ] mysql:host=127.0.0.1;dbname=;charset=utf8
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+---------------------------------------------------------------
+[ 2018-08-07T17:07:40+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011521s ] mysql:host=127.0.0.1;dbname=;charset=utf8
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+---------------------------------------------------------------
+[ 2018-08-07T17:07:55+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.043784s][吞吐率：22.84req/s] [内存消耗：2,168.95kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012408s ] mysql:host=127.0.0.1;dbname=;charset=utf8
+[ error ] [10501]SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected[F:\wamp\www\links\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-08-07T17:08:13+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.036415s][吞吐率：27.46req/s] [内存消耗：2,175.79kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011317s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'peanut.links' doesn't exist[F:\wamp\www\links\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-08-07T17:08:25+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.026676s][吞吐率：37.49req/s] [内存消耗：2,175.78kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001570s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'peanut.chelinks' doesn't exist[F:\wamp\www\links\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-08-07T17:08:27+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.036534s][吞吐率：27.37req/s] [内存消耗：2,175.78kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000897s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'peanut.chelinks' doesn't exist[F:\wamp\www\links\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-08-07T17:08:27+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.037057s][吞吐率：26.99req/s] [内存消耗：2,175.78kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010997s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'peanut.chelinks' doesn't exist[F:\wamp\www\links\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-08-07T17:08:28+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.032332s][吞吐率：30.93req/s] [内存消耗：2,175.78kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001910s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'peanut.chelinks' doesn't exist[F:\wamp\www\links\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-08-07T17:08:28+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.042666s][吞吐率：23.44req/s] [内存消耗：2,175.78kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011495s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'peanut.chelinks' doesn't exist[F:\wamp\www\links\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-08-07T17:08:33+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.054501s][吞吐率：18.35req/s] [内存消耗：2,184.12kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010317s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000324s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'l_ctime' doesn't have a default value[F:\wamp\www\links\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-08-07T17:08:56+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.044327s][吞吐率：22.56req/s] [内存消耗：2,053.43kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010490s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] INSERT INTO `che_links` (`l_hash` , `l_url`) VALUES ('bfa89e563d9509fbc5c6503dd50faf2e' , 'http://www.baidu.com') [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:09:10+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.052378s][吞吐率：19.09req/s] [内存消耗：2,174.34kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010779s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000413s ]
+[ error ] [8]未定义数组索引: [F:\wamp\www\links\application\common.php:26]
+---------------------------------------------------------------
+[ 2018-08-07T17:10:34+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.035546s][吞吐率：28.13req/s] [内存消耗：2,174.34kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010813s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000374s ]
+[ error ] [8]未定义数组索引: [F:\wamp\www\links\application\common.php:26]
+---------------------------------------------------------------
+[ 2018-08-07T17:10:36+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.038456s][吞吐率：26.00req/s] [内存消耗：2,174.34kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011203s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000390s ]
+[ error ] [8]未定义数组索引: [F:\wamp\www\links\application\common.php:26]
+---------------------------------------------------------------
+[ 2018-08-07T17:10:36+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.033180s][吞吐率：30.14req/s] [内存消耗：2,174.34kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011029s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.001731s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000353s ]
+[ error ] [8]未定义数组索引: [F:\wamp\www\links\application\common.php:26]
+---------------------------------------------------------------
+[ 2018-08-07T17:10:36+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.046267s][吞吐率：21.61req/s] [内存消耗：2,174.34kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010522s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000498s ]
+[ error ] [8]未定义数组索引: [F:\wamp\www\links\application\common.php:26]
+---------------------------------------------------------------
+[ 2018-08-07T17:10:47+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.048683s][吞吐率：20.54req/s] [内存消耗：2,053.03kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010776s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:11:22+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.043089s][吞吐率：23.21req/s] [内存消耗：2,053.00kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010512s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000406s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:11:52+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.061844s][吞吐率：16.17req/s] [内存消耗：2,053.16kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010572s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:12:02+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.022976s][吞吐率：43.52req/s] [内存消耗：2,053.16kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:12:03+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.031498s][吞吐率：31.75req/s] [内存消耗：2,053.16kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010653s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:12:04+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.065331s][吞吐率：15.31req/s] [内存消耗：2,053.16kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010611s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:12:04+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.021425s][吞吐率：46.67req/s] [内存消耗：2,053.16kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000920s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:12:30+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.036594s][吞吐率：27.33req/s] [内存消耗：2,053.10kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010452s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:12:39+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.033637s][吞吐率：29.73req/s] [内存消耗：2,053.10kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010945s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.001796s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:12:53+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.031914s][吞吐率：31.33req/s] [内存消耗：2,053.10kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010510s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:12:54+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.042227s][吞吐率：23.68req/s] [内存消耗：2,053.10kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011343s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:12:54+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.024799s][吞吐率：40.32req/s] [内存消耗：2,053.10kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:12:55+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.042928s][吞吐率：23.29req/s] [内存消耗：2,053.10kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010593s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:12:55+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.030336s][吞吐率：32.96req/s] [内存消耗：2,053.10kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011246s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:13:35+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.035588s][吞吐率：28.10req/s] [内存消耗：2,175.16kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010589s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000346s ]
+[ error ] [2]explode(): Empty delimiter[F:\wamp\www\links\application\common.php:25]
+---------------------------------------------------------------
+[ 2018-08-07T17:14:55+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.042560s][吞吐率：23.50req/s] [内存消耗：2,054.48kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010838s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:15:14+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.044896s][吞吐率：22.27req/s] [内存消耗：2,054.09kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010727s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:15:20+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.051927s][吞吐率：19.26req/s] [内存消耗：2,129.07kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011142s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:15:28+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.042038s][吞吐率：23.79req/s] [内存消耗：2,054.09kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011297s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:16:11+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.048841s][吞吐率：20.47req/s] [内存消耗：2,047.84kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010592s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:16:34+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.020487s][吞吐率：48.81req/s] [内存消耗：2,054.37kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000774s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:16:36+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.030162s][吞吐率：33.15req/s] [内存消耗：2,054.37kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011002s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:16:36+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.048131s][吞吐率：20.78req/s] [内存消耗：2,054.37kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011052s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:16:37+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.044758s][吞吐率：22.34req/s] [内存消耗：2,054.37kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010983s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:16:37+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.031337s][吞吐率：31.91req/s] [内存消耗：2,054.37kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010775s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:16:37+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.035029s][吞吐率：28.55req/s] [内存消耗：2,054.37kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011398s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:16:37+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.032180s][吞吐率：31.08req/s] [内存消耗：2,054.37kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010541s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:16:37+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.030603s][吞吐率：32.68req/s] [内存消耗：2,054.37kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010968s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:18:04+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.031285s][吞吐率：31.96req/s] [内存消耗：2,054.08kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010486s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:18:05+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.030440s][吞吐率：32.85req/s] [内存消耗：2,054.08kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011221s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:18:05+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.029531s][吞吐率：33.86req/s] [内存消耗：2,054.08kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010916s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:18:05+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.041119s][吞吐率：24.32req/s] [内存消耗：2,054.08kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010627s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.001106s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:18:05+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.029862s][吞吐率：33.49req/s] [内存消耗：2,054.08kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010421s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:18:07+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.019341s][吞吐率：51.70req/s] [内存消耗：2,054.08kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000939s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:18:08+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.029498s][吞吐率：33.90req/s] [内存消耗：2,054.08kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011633s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:18:08+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.019860s][吞吐率：50.35req/s] [内存消耗：2,054.08kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001512s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:19:02+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.031577s][吞吐率：31.67req/s] [内存消耗：2,047.84kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010453s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:19:10+08:00 ] 127.0.0.1 GET /?code=35135874
+[ info ] t.guazi.com/?code=35135874 [运行时间：0.036791s][吞吐率：27.18req/s] [内存消耗：2,047.05kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '35135874',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011266s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 1125420564 LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:20:00+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.044518s][吞吐率：22.46req/s] [内存消耗：2,047.81kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010753s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:20:10+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.031379s][吞吐率：31.87req/s] [内存消耗：2,047.30kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011055s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:20:27+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.066639s][吞吐率：15.01req/s] [内存消耗：2,128.74kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010274s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.001975s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000637s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:20:48+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.031075s][吞吐率：32.18req/s] [内存消耗：2,143.77kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010898s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:20:50+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.030635s][吞吐率：32.64req/s] [内存消耗：2,143.77kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010654s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:20:51+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.031253s][吞吐率：32.00req/s] [内存消耗：2,143.77kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010805s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:20:51+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.042243s][吞吐率：23.67req/s] [内存消耗：2,143.77kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012151s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:20:51+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.034244s][吞吐率：29.20req/s] [内存消耗：2,143.77kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010756s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:21:01+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.032502s][吞吐率：30.77req/s] [内存消耗：2,144.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011267s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:21:02+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.031345s][吞吐率：31.90req/s] [内存消耗：2,144.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010926s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:21:02+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.044954s][吞吐率：22.24req/s] [内存消耗：2,144.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011236s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.002436s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000838s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:21:03+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.037841s][吞吐率：26.43req/s] [内存消耗：2,144.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011046s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000366s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:21:03+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.030343s][吞吐率：32.96req/s] [内存消耗：2,144.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010671s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:21:03+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.022890s][吞吐率：43.69req/s] [内存消耗：2,144.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001444s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:21:04+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.046028s][吞吐率：21.73req/s] [内存消耗：2,144.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010374s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000553s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:21:04+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.021227s][吞吐率：47.11req/s] [内存消耗：2,144.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001118s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:21:04+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.039199s][吞吐率：25.51req/s] [内存消耗：2,144.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010899s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:21:04+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.033223s][吞吐率：30.10req/s] [内存消耗：2,144.19kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010321s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000452s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:21:15+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.034414s][吞吐率：29.06req/s] [内存消耗：2,047.80kb] [文件加载：38]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010596s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:26:12+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.046469s][吞吐率：21.52req/s] [内存消耗：2,178.23kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011166s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000403s ]
+[ error ] [1]Call to undefined method app\index\controller\Index::redirect()[F:\wamp\www\links\application\index\controller\Index.php:37]
+---------------------------------------------------------------
+[ 2018-08-07T17:26:26+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.039661s][吞吐率：25.21req/s] [内存消耗：2,378.41kb] [文件加载：47]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010703s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:26:44+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.050525s][吞吐率：19.79req/s] [内存消耗：2,378.77kb] [文件加载：47]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010680s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:26:44+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.034083s][吞吐率：29.34req/s] [内存消耗：2,378.41kb] [文件加载：47]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011182s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:26:49+08:00 ] 127.0.0.1 GET /
+[ info ] t.guazi.com/ [运行时间：0.028101s][吞吐率：35.59req/s] [内存消耗：1,651.01kb] [文件加载：41]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:27:03+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.035746s][吞吐率：27.98req/s] [内存消耗：2,378.46kb] [文件加载：47]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010544s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:27:03+08:00 ] 127.0.0.1 GET /?code=6QM
+[ info ] t.guazi.com/?code=6QM [运行时间：0.033411s][吞吐率：29.93req/s] [内存消耗：2,378.20kb] [文件加载：47]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010631s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:28:43+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.030638s][吞吐率：32.64req/s] [内存消耗：2,327.03kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001054s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'bfa89e563d9509fbc5c6503dd50faf2e' LIMIT 1 [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:28:58+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.017460s][吞吐率：57.27req/s] [内存消耗：1,372.00kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:30:24+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.016775s][吞吐率：59.61req/s] [内存消耗：1,372.37kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:30:25+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.015475s][吞吐率：64.62req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:30:26+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014380s][吞吐率：69.54req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:30:26+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.013877s][吞吐率：72.06req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:30:26+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.022385s][吞吐率：44.67req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:30:26+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014614s][吞吐率：68.43req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:30:26+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014386s][吞吐率：69.51req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:30:27+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.015581s][吞吐率：64.18req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:30:27+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.013041s][吞吐率：76.68req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:30:27+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.026064s][吞吐率：38.37req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:30:27+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014278s][吞吐率：70.04req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:30:27+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.022392s][吞吐率：44.66req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:34:23+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.016369s][吞吐率：61.09req/s] [内存消耗：1,372.37kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:34:26+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.013449s][吞吐率：74.36req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:34:27+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.016734s][吞吐率：59.76req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:34:27+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.024020s][吞吐率：41.63req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:34:27+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.016123s][吞吐率：62.02req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:34:27+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014982s][吞吐率：66.75req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:41:32+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.017614s][吞吐率：56.77req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:41:32+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.015596s][吞吐率：64.12req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:41:32+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.017639s][吞吐率：56.69req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:44:43+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.017218s][吞吐率：58.08req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:44:46+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014264s][吞吐率：70.11req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:44:47+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.020677s][吞吐率：48.36req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:44:48+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.015706s][吞吐率：63.67req/s] [内存消耗：1,372.31kb] [文件加载：35]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:47:53+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.029406s][吞吐率：34.01req/s] [内存消耗：1,374.33kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:47:54+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.016115s][吞吐率：62.05req/s] [内存消耗：1,374.33kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:47:55+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014630s][吞吐率：68.35req/s] [内存消耗：1,374.33kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:47:55+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.017562s][吞吐率：56.94req/s] [内存消耗：1,374.33kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:47:56+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.013287s][吞吐率：75.26req/s] [内存消耗：1,374.33kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:47:56+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.025095s][吞吐率：39.85req/s] [内存消耗：1,374.33kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:47:56+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.016592s][吞吐率：60.27req/s] [内存消耗：1,374.33kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:47:56+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.020672s][吞吐率：48.37req/s] [内存消耗：1,374.33kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:47:56+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.016131s][吞吐率：61.99req/s] [内存消耗：1,374.33kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:47:56+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.015958s][吞吐率：62.66req/s] [内存消耗：1,374.33kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:47:57+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.020492s][吞吐率：48.80req/s] [内存消耗：1,374.33kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:47:57+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014626s][吞吐率：68.37req/s] [内存消耗：1,374.33kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:48:56+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.035342s][吞吐率：28.29req/s] [内存消耗：1,374.47kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:48:57+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.020462s][吞吐率：48.87req/s] [内存消耗：1,374.47kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:48:57+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014060s][吞吐率：71.12req/s] [内存消耗：1,374.47kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:48:57+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.013174s][吞吐率：75.91req/s] [内存消耗：1,374.47kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:48:57+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014401s][吞吐率：69.44req/s] [内存消耗：1,374.47kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:48:57+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.021097s][吞吐率：47.40req/s] [内存消耗：1,374.47kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:48:58+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014751s][吞吐率：67.79req/s] [内存消耗：1,374.47kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:48:58+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.021695s][吞吐率：46.09req/s] [内存消耗：1,374.47kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:48:58+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014942s][吞吐率：66.92req/s] [内存消耗：1,374.47kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:48:58+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.015840s][吞吐率：63.13req/s] [内存消耗：1,374.47kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:48:59+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.016062s][吞吐率：62.26req/s] [内存消耗：1,374.47kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:48:59+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.015808s][吞吐率：63.26req/s] [内存消耗：1,374.47kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:50:07+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.015987s][吞吐率：62.55req/s] [内存消耗：1,375.13kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:50:08+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.017961s][吞吐率：55.68req/s] [内存消耗：1,375.13kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:50:08+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014423s][吞吐率：69.33req/s] [内存消耗：1,375.13kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:50:08+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014585s][吞吐率：68.56req/s] [内存消耗：1,375.13kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:50:08+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.017673s][吞吐率：56.58req/s] [内存消耗：1,375.13kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:50:08+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014585s][吞吐率：68.56req/s] [内存消耗：1,375.13kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:50:09+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.019781s][吞吐率：50.55req/s] [内存消耗：1,375.13kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:50:09+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.017238s][吞吐率：58.01req/s] [内存消耗：1,375.13kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:50:09+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.015401s][吞吐率：64.93req/s] [内存消耗：1,375.13kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:50:09+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.014197s][吞吐率：70.44req/s] [内存消耗：1,375.13kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:50:09+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.015780s][吞吐率：63.37req/s] [内存消耗：1,375.13kb] [文件加载：36]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '6QM',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:51:23+08:00 ] 127.0.0.1 GET /6QM
+[ info ] t.guazi.com/6QM [运行时间：0.031222s][吞吐率：32.03req/s] [内存消耗：2,386.66kb] [文件加载：48]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QM',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002965s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.004816s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26262 LIMIT 1 [ RunTime:0.000534s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:51:53+08:00 ] 127.0.0.1 GET /?url=https://www.cnblogs.com/huangtailang/p/6484277.html
+[ info ] t.guazi.com/?url=https://www.cnblogs.com/huangtailang/p/6484277.html [运行时间：0.035319s][吞吐率：28.31req/s] [内存消耗：2,338.30kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'https://www.cnblogs.com/huangtailang/p/6484277.html',
+  'code' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010304s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'a1ba66d7f530502adc0ec8896839ecdc' LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] INSERT INTO `che_links` (`l_hash` , `l_url`) VALUES ('a1ba66d7f530502adc0ec8896839ecdc' , 'https://www.cnblogs.com/huangtailang/p/6484277.html') [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:52:02+08:00 ] 127.0.0.1 GET /?code=6QN
+[ info ] t.guazi.com/?code=6QN [运行时间：0.022430s][吞吐率：44.58req/s] [内存消耗：1,656.41kb] [文件加载：42]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T17:52:10+08:00 ] 127.0.0.1 GET /6QN
+[ info ] t.guazi.com/6QN [运行时间：0.036081s][吞吐率：27.72req/s] [内存消耗：2,386.41kb] [文件加载：48]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QN',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011020s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26263 LIMIT 1 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:52:31+08:00 ] 127.0.0.1 GET /?url=https://www.cnblogs.com/huangtailang/p/6484277.html
+[ info ] t.guazi.com/?url=https://www.cnblogs.com/huangtailang/p/6484277.html [运行时间：0.033099s][吞吐率：30.21req/s] [内存消耗：2,332.58kb] [文件加载：45]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'https://www.cnblogs.com/huangtailang/p/6484277.html',
+  'code' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011086s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT `l_id` FROM `che_links` WHERE  `l_hash` = 'a1ba66d7f530502adc0ec8896839ecdc' LIMIT 1 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2018-08-07T17:52:41+08:00 ] 127.0.0.1 GET /6QN
+[ info ] t.guazi.com/6QN [运行时间：0.045455s][吞吐率：22.00req/s] [内存消耗：2,386.41kb] [文件加载：48]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.15 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; pgv_si=s3214803968',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6QN',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010610s ] mysql:host=127.0.0.1;dbname=peanut;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `che_links` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT l_url as url FROM `che_links` WHERE  `l_id` = 26263 LIMIT 1 [ RunTime:0.000416s ]

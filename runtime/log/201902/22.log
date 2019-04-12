@@ -1,0 +1,253 @@
+---------------------------------------------------------------
+[ 2019-02-22T09:51:48+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.470286s][吞吐率：2.13req/s] [内存消耗：2,309.89kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; cityDomain=gz; cainfo=%7B%22ca_s%22%3A%22sp_tengxunshipin%22%2C%22ca_n%22%3A%22wangji_2018%22%2C%22ca_i%22%3Anull%2C%22ca_medium%22%3A%22-%22%2C%22ca_term%22%3A%22-%22%2C%22ca_content%22%3A%22-%22%2C%22ca_campaign%22%3A%22-%22%2C%22ca_kw%22%3A%22-%22%2C%22keyword%22%3A%22-%22%2C%22ca_keywordid%22%3A%22-%22%2C%22scode%22%3A%2210107009812%22%2C%22ca_transid%22%3Anull%2C%22platform%22%3A%222%22%2C%22version%22%3A%221%22%7D; clueSourceCode=10107009812%2300; uuid=ae896c85-fddc-48d2-9836-2e5b1f28c754; ganji_uuid=5250318367893793490586',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+  'code' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T10:56:02+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.160492s][吞吐率：6.23req/s] [内存消耗：2,304.62kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; cityDomain=gz; cainfo=%7B%22ca_s%22%3A%22sp_tengxunshipin%22%2C%22ca_n%22%3A%22wangji_2018%22%2C%22ca_i%22%3Anull%2C%22ca_medium%22%3A%22-%22%2C%22ca_term%22%3A%22-%22%2C%22ca_content%22%3A%22-%22%2C%22ca_campaign%22%3A%22-%22%2C%22ca_kw%22%3A%22-%22%2C%22keyword%22%3A%22-%22%2C%22ca_keywordid%22%3A%22-%22%2C%22scode%22%3A%2210107009812%22%2C%22ca_transid%22%3Anull%2C%22platform%22%3A%222%22%2C%22version%22%3A%221%22%7D; clueSourceCode=10107009812%2300; uuid=ae896c85-fddc-48d2-9836-2e5b1f28c754; ganji_uuid=5250318367893793490586',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+  'code' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T11:11:30+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.139669s][吞吐率：7.16req/s] [内存消耗：2,304.63kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; cityDomain=gz; cainfo=%7B%22ca_s%22%3A%22sp_tengxunshipin%22%2C%22ca_n%22%3A%22wangji_2018%22%2C%22ca_i%22%3Anull%2C%22ca_medium%22%3A%22-%22%2C%22ca_term%22%3A%22-%22%2C%22ca_content%22%3A%22-%22%2C%22ca_campaign%22%3A%22-%22%2C%22ca_kw%22%3A%22-%22%2C%22keyword%22%3A%22-%22%2C%22ca_keywordid%22%3A%22-%22%2C%22scode%22%3A%2210107009812%22%2C%22ca_transid%22%3Anull%2C%22platform%22%3A%222%22%2C%22version%22%3A%221%22%7D; clueSourceCode=10107009812%2300; uuid=ae896c85-fddc-48d2-9836-2e5b1f28c754; ganji_uuid=5250318367893793490586',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+  'code' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T11:11:46+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.111593s][吞吐率：8.96req/s] [内存消耗：2,304.83kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; cityDomain=gz; cainfo=%7B%22ca_s%22%3A%22sp_tengxunshipin%22%2C%22ca_n%22%3A%22wangji_2018%22%2C%22ca_i%22%3Anull%2C%22ca_medium%22%3A%22-%22%2C%22ca_term%22%3A%22-%22%2C%22ca_content%22%3A%22-%22%2C%22ca_campaign%22%3A%22-%22%2C%22ca_kw%22%3A%22-%22%2C%22keyword%22%3A%22-%22%2C%22ca_keywordid%22%3A%22-%22%2C%22scode%22%3A%2210107009812%22%2C%22ca_transid%22%3Anull%2C%22platform%22%3A%222%22%2C%22version%22%3A%221%22%7D; clueSourceCode=10107009812%2300; uuid=ae896c85-fddc-48d2-9836-2e5b1f28c754; ganji_uuid=5250318367893793490586',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+  'code' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T11:11:47+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.065465s][吞吐率：15.28req/s] [内存消耗：2,304.88kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; cityDomain=gz; cainfo=%7B%22ca_s%22%3A%22sp_tengxunshipin%22%2C%22ca_n%22%3A%22wangji_2018%22%2C%22ca_i%22%3Anull%2C%22ca_medium%22%3A%22-%22%2C%22ca_term%22%3A%22-%22%2C%22ca_content%22%3A%22-%22%2C%22ca_campaign%22%3A%22-%22%2C%22ca_kw%22%3A%22-%22%2C%22keyword%22%3A%22-%22%2C%22ca_keywordid%22%3A%22-%22%2C%22scode%22%3A%2210107009812%22%2C%22ca_transid%22%3Anull%2C%22platform%22%3A%222%22%2C%22version%22%3A%221%22%7D; clueSourceCode=10107009812%2300; uuid=ae896c85-fddc-48d2-9836-2e5b1f28c754; ganji_uuid=5250318367893793490586',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+  'code' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T11:11:48+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.073465s][吞吐率：13.61req/s] [内存消耗：2,304.88kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; cityDomain=gz; cainfo=%7B%22ca_s%22%3A%22sp_tengxunshipin%22%2C%22ca_n%22%3A%22wangji_2018%22%2C%22ca_i%22%3Anull%2C%22ca_medium%22%3A%22-%22%2C%22ca_term%22%3A%22-%22%2C%22ca_content%22%3A%22-%22%2C%22ca_campaign%22%3A%22-%22%2C%22ca_kw%22%3A%22-%22%2C%22keyword%22%3A%22-%22%2C%22ca_keywordid%22%3A%22-%22%2C%22scode%22%3A%2210107009812%22%2C%22ca_transid%22%3Anull%2C%22platform%22%3A%222%22%2C%22version%22%3A%221%22%7D; clueSourceCode=10107009812%2300; uuid=ae896c85-fddc-48d2-9836-2e5b1f28c754; ganji_uuid=5250318367893793490586',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+  'code' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T11:11:48+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,304.88kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; cityDomain=gz; cainfo=%7B%22ca_s%22%3A%22sp_tengxunshipin%22%2C%22ca_n%22%3A%22wangji_2018%22%2C%22ca_i%22%3Anull%2C%22ca_medium%22%3A%22-%22%2C%22ca_term%22%3A%22-%22%2C%22ca_content%22%3A%22-%22%2C%22ca_campaign%22%3A%22-%22%2C%22ca_kw%22%3A%22-%22%2C%22keyword%22%3A%22-%22%2C%22ca_keywordid%22%3A%22-%22%2C%22scode%22%3A%2210107009812%22%2C%22ca_transid%22%3Anull%2C%22platform%22%3A%222%22%2C%22version%22%3A%221%22%7D; clueSourceCode=10107009812%2300; uuid=ae896c85-fddc-48d2-9836-2e5b1f28c754; ganji_uuid=5250318367893793490586',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+  'code' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T11:11:49+08:00 ] 127.0.0.1 GET /?url=http://www.baidu.com
+[ info ] t.guazi.com/?url=http://www.baidu.com [运行时间：0.062883s][吞吐率：15.90req/s] [内存消耗：2,304.88kb] [文件加载：44]
+[ info ] [ LANG ] F:\wamp\www\links\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 't.guazi.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=1880178688; cityDomain=gz; cainfo=%7B%22ca_s%22%3A%22sp_tengxunshipin%22%2C%22ca_n%22%3A%22wangji_2018%22%2C%22ca_i%22%3Anull%2C%22ca_medium%22%3A%22-%22%2C%22ca_term%22%3A%22-%22%2C%22ca_content%22%3A%22-%22%2C%22ca_campaign%22%3A%22-%22%2C%22ca_kw%22%3A%22-%22%2C%22keyword%22%3A%22-%22%2C%22ca_keywordid%22%3A%22-%22%2C%22scode%22%3A%2210107009812%22%2C%22ca_transid%22%3Anull%2C%22platform%22%3A%222%22%2C%22version%22%3A%221%22%7D; clueSourceCode=10107009812%2300; uuid=ae896c85-fddc-48d2-9836-2e5b1f28c754; ganji_uuid=5250318367893793490586',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.baidu.com',
+  'code' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\links\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
